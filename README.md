@@ -1,4 +1,4 @@
-# amap
+# Script de génération des listes de distributions amap
 
 ## Installation
 
