@@ -16,11 +16,7 @@ Attention à bien vérifier que libre office est ajouté aux variables d'environ
 ## Génération des fichiers de distribution
 - **Etape 1**: Charger les fichiers xls dans le répertoire
 
-- **Etape 2**: Ouvrir un terminal et convertir les fichiers xls en fichiers xlsx
+- **Etape 2**: Ouvrir un terminal et lancer la commande suivante pour générer le fichier xlsx et le pdf à imprimer pour la permanence de la semaine
   ```bash
-  sh convertor.sh
-  ```
-- **Etape 3**: Depuis ce même terminal, lancer la génération du fichier xlsx et du pdf à imprimer pour la permanence de la semaine
-  ```bash
-  python src/main.py
+  sh launch.sh
   ```

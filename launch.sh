@@ -18,3 +18,9 @@ for file in *.xls; do
     echo "❌ Conversion failed for: $file"
   fi
 done
+
+
+
+# Run Python script after conversion
+echo "Launching Python script..."
+python src/main.py
